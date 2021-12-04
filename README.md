@@ -1,4 +1,5 @@
 # Omedena-MLOps-Course
+https://omdena.com/course/mlops-for-ai-engineers-and-data-scientists/
 
 ### Course Description
 MLOps concepts will be taught with a real-world case study i.e. estimating daily energy generated from the sun(solar energy) using Abuja city. It will be implemented using Machine Learning and Deep Learning FrameWork.
