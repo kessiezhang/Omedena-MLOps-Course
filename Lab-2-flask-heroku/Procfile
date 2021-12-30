@@ -1,0 +1,3 @@
+web: gunicorn __init__:app
+#we can later remove gunicorn
+#after the test pass
