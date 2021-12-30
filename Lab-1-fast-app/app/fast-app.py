@@ -5,13 +5,15 @@ app = FastAPI()
 
 @app.get("/")
 async def get_input(request:Request):
-    packet = await request.json()
-    principal = packet['principal']
-    rate = packet['rate']
-    period = packet['period']
+    getInput=await request.json()
+    principal = getInput['principal']
+    rate = getInput['rate']
+    period = getInput['period']
 
     interest= simple_interest(principal,rate,period)
 
-    return jsonify(packet,interest)
+    return interest
     
-# fast-api doesn't need driver function here
+# main driver app
+if __name__ == '__main__':
+    app.run()
