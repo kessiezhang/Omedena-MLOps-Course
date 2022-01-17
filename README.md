@@ -9,9 +9,13 @@ Fundamental knowledge of how to develop and train machine learning and deep lear
 Some intermediate knowledge of python programming is necessary. And some knowledge of flask or fast API development will be an added advantage.
 Basic understanding of cloud computing: cloud storage(s3, azure blob, google cloud bucket), cloud virtual machine instances(ec2, data store ). 
 
+### My Assignments:
+* [Assignment #1](https://github.com/kessiezhang/Omedena-MLOps-Course/tree/master/HW-1-flask-app): built a flask app for BMI calculator
+* [Assignment #2](https://github.com/kessiezhang/Omedena-MLOps-Course/tree/master/HW-2-flask-heroku): deployed the BMI calculator flask app on Heroku
+* [Final Project](https://github.com/kessiezhang/Omedena-MLOps-Course/tree/master/Final-Solar-Energy-Project): built a model to predict average Solar Radiation for San Francisco Region using data from [Solar Cast](https://solcast.com/), deployed the model on Heroku, and set up model monitoring using MLFlow and Neptune.
+
+
 ### Course Content
-- A glance at ML Life Cycle
-  - Challenges facing MLOps
 
 - Introduction to MLOps
   - What is MLOps?
@@ -29,9 +33,6 @@ Basic understanding of cloud computing: cloud storage(s3, azure blob, google clo
   - An introduction to automating ML deployment workflow
 
 - Leveraging Cloud Computing for MLOps
-  - Deploying machine learning model through AWS
-  - Deploying deep learning model though google cloud 
-  - Train and deploy ML model through Azure Auto ML
   - Deploy model via Fastapi, Streamlit, Heroku
 
 - Monitoring and Automation
@@ -44,5 +45,5 @@ Basic understanding of cloud computing: cloud storage(s3, azure blob, google clo
 ### Key Takeaways
 At the end of the session, you will be able to have:
 - Knowledge of MLOps implementation. 
-- Know how to deploy machine learning and deep learning models across different cloud infrastructures.
+- Know how to deploy machine learning and deep learning models on Heroku.
 - Understand the automation of model deployments.
