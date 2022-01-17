@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/0/31a857d8fd7843718cf7fd77bc408c33/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 31a857d8fd7843718cf7fd77bc408c33
+run_uuid: 31a857d8fd7843718cf7fd77bc408c33
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1642449928984
+status: 1
+tags: []
+user_id: keszhang
