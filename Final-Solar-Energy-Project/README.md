@@ -1,9 +1,19 @@
+## Problem
+The goal of this project is to build a predictive model to predict the Solar Irradiance for a given day, set up model monitoring using MLFlow and deploy the best model on Heroku.
+
+## Process
+1. [Data Cleaning](https://github.com/kessiezhang/Omedena-MLOps-Course/blob/master/Final-Solar-Energy-Project/notebooks/data_cleaning_sr.ipynb)
+2. [Exploratory Data Analysis](https://github.com/kessiezhang/Omedena-MLOps-Course/blob/master/Final-Solar-Energy-Project/notebooks/data_exp_and_vis_sr.ipynb)
+3. [Model Building](https://github.com/kessiezhang/Omedena-MLOps-Course/blob/master/Final-Solar-Energy-Project/notebooks/model_dev_sr.ipynb)
+4. [Setting up Model Monitoring](https://github.com/kessiezhang/Omedena-MLOps-Course/blob/master/Final-Solar-Energy-Project/notebooks/model_monitoring_setup.ipynb)
+
 ## Access Heroku API
 http://solar-app-kz.herokuapp.com
 
 ## Test
-Input: "month", "day", "Daily_Temp", "Daily_Precip", "Daily_Humidity", "Daily_Pressure", "Daily_WindDir",
-"Daily_WindSpeed", "Daily_DNI", "Daily_DHI"
+Input: month, day, Daily_Temp, Daily_Precip, Daily_Humidity, Daily_Pressure, Daily_WindDir,
+Daily_WindSpeed, Daily_DNI, Daily_DHI
+
 Output: Average Solar Irradiance
 
 ## Result on LocalHost & Postman
